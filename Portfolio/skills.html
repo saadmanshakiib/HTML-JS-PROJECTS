@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Skills</title>
+        <link rel="stylesheet" href="skillsStyle.css">
+    </head>
+    <body>
+        <div class="skills">
+            <ul>
+
+    <ul><img src="c-.png" height="50px" width="50px">C++</ul>
+    <ul><img src="java.png" height="50px" width="50px">JAVA</ul>
+    <ul><img src="js.png" height="50px" width="50px">JAVSCRIPT</ul>
+    <ul><img src="html-5.png" height="50px" width="50px">HTML</ul>
+            </ul>
+        </div>
+
+        <nav id="projects_nav">
+
+            <h2>Projects</h2>
+
+        <button class="javabutton" onclick="toggleJava()">Java</button>
+
+         <div id="javaProjects" style="display: none;">
+        <p>
+            <strong>Real Estate Management System</strong>
+            <br>
+        This is a Real Estate Management where user can login or create new account to 
+        perform such activities : buy a property or sell a property. They can also see the
+        details of each properties they are interested in. Admin can login and add or delete
+        multiple properties or can change any systems.
+        </p>
+        <p>Github Link : <a href="https://github.com/saadmanshakiib/Real-Estate-Management-System">Project 1</a></p>
+        <p>
+            <strong>Online Restaurant</strong><br>
+            This is an online Restaurant where people can login with their account and also
+            can create account to access. They can order their favorite foods from there.
+            Multiple Food items were added to serve the customers.
+        </p>
+        <p> Github Link : 
+            <a href="https://github.com/saadmanshakiib/Online-Restaurent-JAVA-SWING-">Project 2</a>
+        </p>
+
+        <p>
+            <strong> Buy Bus Ticket</strong>
+            <br>
+            <p>
+                This is a simple bus ticket buying app where user can login and choose their
+                respective routes as well as buses to travel. They can choose the seats by their
+                choice and pay through online banking.
+            </p>
+            <p>Github Link: 
+            <a href="https://github.com/saadmanshakiib/Online-Bus-Ticket-Swing-UI">Project 3</a>
+            </p>
+        </p>
+
+    </div>
+        </nav>
+
+    <script>
+        function toggleJava(){
+            let section = document.getElementById("javaProjects");
+            if(section.style.display === "none"){
+                section.style.display = "block";
+            } 
+            else{
+                section.style.display = "none";
+            }
+
+        }
+    </script>
+
+    </body>
+</html>
