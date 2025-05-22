@@ -39,6 +39,8 @@ img {
   float: left;
   margin-right: 20px;
   transition: transform 0.3s ease;
+  width: 120px;
+  height: 120px;
 }
 
 img:hover {
@@ -131,6 +133,8 @@ h1 {
     float: none;
     margin-right: 0;
     margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
   }
   
   h1 {
@@ -157,11 +161,65 @@ h1 {
     padding: 15px;
   }
   
+  img {
+    width: 90px;
+    height: 90px;
+  }
+  
   h1 {
     font-size: 1.8rem;
   }
   
   .bio p {
     font-size: 0.95rem;
+  }
+}
+
+/* Contact Section */
+#contact {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+  line-height: 2;
+  color: #e0e0e0;
+}
+
+#contact h1 {
+  color: #4ea8de;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: #56cfe1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #48bfe3;
+  text-decoration: underline;
+}
+
+#contact strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 20px;
+  }
+
+  #contact h1 {
+    font-size: 1.6rem;
+  }
+
+  #contact strong {
+    font-size: 1rem;
   }
 }
