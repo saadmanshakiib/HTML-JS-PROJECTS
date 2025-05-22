@@ -107,7 +107,7 @@ body {
   margin: 10px auto;
 }
 
-.javabutton, .jsbutton {
+.javabutton, .jsbutton, .htmlbutton {
   background-color: #1f6582;
   color: white;
   border: none;
@@ -121,7 +121,7 @@ body {
   display: inline-block;
 }
 
-.javabutton:hover, .jsbutton:hover {
+.javabutton:hover, .jsbutton:hover, .htmlbutton:hover {
   background-color: #48bfe3;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(72, 191, 227, 0.4);
@@ -134,7 +134,7 @@ body {
   margin-bottom: 20px;
 }
 
-#javaProjects, #jsProjects {
+#javaProjects, #jsProjects, #htmlProjects {
   background-color: #333333;
   border-radius: 8px;
   padding: 20px;
@@ -143,27 +143,27 @@ body {
   border-left: 4px solid #56cfe1;
 }
 
-#javaProjects p, #jsProjects p {
+#javaProjects p, #jsProjects p, #htmlProjects p {
   margin-bottom: 20px;
   line-height: 1.8;
   color: #b8b8b8;
 }
 
-#javaProjects strong, #jsProjects strong {
+#javaProjects strong, #jsProjects strong, #htmlProjects strong {
   color: #56cfe1;
   font-size: 1.2rem;
   display: block;
   margin-bottom: 8px;
 }
 
-#javaProjects a, #jsProjects a {
+#javaProjects a, #jsProjects a, #htmlProjects a {
   color: #4ea8de;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
-#javaProjects a:hover, #jsProjects a:hover {
+#javaProjects a:hover, #jsProjects a:hover, #htmlProjects a:hover {
   color: #56cfe1;
   text-decoration: underline;
 }
@@ -204,7 +204,62 @@ body {
     width: 35px;
   }
   
-  .javabutton, .jsbutton {
+  .javabutton, .jsbutton, .htmlbutton {
     padding: 10px 20px;
   }
 }
+.cppbutton {
+  background-color: #1f6582;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 10px 20px 0;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.cppbutton:hover {
+  background-color: #48bfe3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(72, 191, 227, 0.4);
+
+}
+
+#cpp {
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  border-left: 4px solid #56cfe1;
+}
+
+#cpp p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #b8b8b8;
+}
+
+#cpp strong {
+  color: #56cfe1;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#cpp a {
+  color: #4ea8de;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#cpp a:hover {
+  color: #56cfe1;
+  text-decoration: underline;
+}
+
